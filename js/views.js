@@ -55,7 +55,6 @@ export function warningView(message) {
 }
 
 // funcion que genera estructura html para el HEADER
-//TODO: paasarle un parametro con el user!
 export function headerView(visitorname) {
     return `<nav class="nav">
         <a href="index.html" class="logo nav-link"> Nodepop </a>
