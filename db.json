@@ -1,0 +1,98 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Movil Iphone",
+      "type": "Venta",
+      "photo": "iphone.jpg",
+      "price": 320,
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "name": "Laptop HP",
+      "type": "Compra",
+      "photo": "laptop_hp.jpg",
+      "price": 250,
+      "tags": [
+        "lifestyle",
+        "work"
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "name": "Laptop Toshiba",
+      "type": "Venta",
+      "photo": "laptop_toshiba.jpg",
+      "price": 300,
+      "tags": [
+        "lifestyle",
+        "work"
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "name": "Monitor ASUS",
+      "type": "Compra",
+      "photo": "monitor_asus.jpg",
+      "price": 90,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "name": "Pc HP",
+      "type": "Venta",
+      "photo": "pc_hp.jpg",
+      "price": 160,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "name": "Pc Lenovo",
+      "type": "Compra",
+      "photo": "pc_lenovo.jpg",
+      "price": 100,
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "name": "Movil samsung galaxy",
+      "type": "Venta",
+      "photo": "",
+      "price": 290,
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "name": "Patinete eléctrico",
+      "type": "Compra",
+      "photo": "",
+      "price": 400,
+      "tags": [
+        "lifestyle",
+        "motor"
+      ]
+    }
+  ]
+}

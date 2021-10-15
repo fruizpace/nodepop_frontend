@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product - Nodepop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header"></header> <!---HeaderController-->
+    <h1>Add Product</h1>
+    <div class="my-message"></div> <!---MessageController-->
+    <form novalidate> <!--ProductFormController-->
+        <div>
+            <label for="name"> Product name: </label>
+            <input type="text" name="name" id="name" required autofocus>
+        </div>
+        <div>
+            <label for="type1"> For buying </label>
+            <input type="radio" name="type" id="type1" value="Compra" required>
+            <label for="type2"> For selling </label>
+            <input type="radio" name="type" id="type2" value="Venta" required>
+        </div>
+        <div>
+            <label for="price"> Price: </label>
+            <input type="number" name="price" id="price" min="0" step="0.01" required>
+        </div>
+        <div>
+            <label for="tags"> Product tags: </label>
+            <br>
+            <input type="checkbox" name="tags" value="lifestyle" />Lifestyle<br />
+            <input type="checkbox" name="tags" value="mobile" />Mobile<br />
+            <input type="checkbox" name="tags" value="motor" />Motor<br />
+            <input type="checkbox" name="tags" value="work" />Work<br />
+        </div>
+        <div>
+            <h4>Optional: upload an image of the product (PNG or JPG)</h4>
+            <input type="file" name="photo" id="photo" placeholder="no_image.png" accept="image/png, image/jpeg">
+        </div>
+        <button type="submit" id="create-btn"> Create product </button>
+        <div class="loader"></div> <!---LoaderController-->
+    </form>
+    <script type="module" src="js/new.js"></script>
+</body>
+<footer>
+    <p>Práctica Keepcoding -2021-</p>
+</footer>
+</html>

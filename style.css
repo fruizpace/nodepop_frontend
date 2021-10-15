@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 90px 20px 0;
+}
+
+.header {
+    background-color: #0769e9;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+
+    max-width: 992px;
+    margin: 0 auto;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+#new-link {
+    display: none;
+}
+
+#profile-link {
+    display: none;
+}
+
+#li-visitorname > a {
+    background-color: #2c292f;
+}
+
+/* index.html products */
+.product-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.product-img-container > img {
+    margin: 5px;
+}
+
+.product-text-container {
+    margin: 10px;
+    background-color: Beige;
+}
+
+#product-photo {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+a {
+    text-decoration:none;
+}
+
+.property-p {
+    margin: 5px;
+}
+
+/* Loader */
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ring.hidden {
+    display: none;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid lightskyblue;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: lightskyblue transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* my-message: error, success, etc. */
+.error {
+    background: #ffecec;
+    color: rgb(44, 43, 43);
+    padding: 20px;
+    border: 1px solid #fad9d7;
+    border-radius: 20px;;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    cursor: default;
+    font-size:1.1em;
+}
+
+.success {
+    background: #e9ffd9;
+    color: rgb(44, 43, 43);
+    padding: 20px;
+    border: 1px solid #D1FAB6;
+    border-radius: 20px;;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    cursor: default;
+    font-size:1.1em;
+}
+
+.warning {
+    background: #fff8c4;
+    color: rgb(44, 43, 43);
+    padding: 20px;
+    border: 1px solid #f2c779;
+    border-radius: 20px;;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    cursor: default;
+    font-size:1.1em;
+}
+
+/* Forms: Login and Signup */
+form > div > p {
+    color: red;
+    font-size: 10px;
+    padding: 8px 0px;
+}
+
+/* Form: New Product */
+form > div {
+    padding: 8px;
+}
+
+#create-btn {
+    margin: 30px 30px 0px 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#create-btn:hover {
+    background-color: #00b28f;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+/* Detail of a product*/
+#delete-btn {
+    margin: 30px 30px 0px 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#delete-btn:hover {
+    background-color: #00b28f;
+}
+
+.product-detail-text-container > p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    color: white;
+    background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 20px 20px 30px 20px;
+	margin-top: 50px;
+}

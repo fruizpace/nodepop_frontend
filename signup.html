@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup - Nodepop</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <header class="header"></header> <!---HeaderController-->
+
+    <h1>Create account</h1>
+    <form novalidate> <!---SignupController-->
+        <div> 
+            <input type="text" name="username" placeholder="Username" required autofocus>
+        </div>
+        <div> 
+            <input type="password" name="password" placeholder="Password" required>
+        </div>
+        <div>
+            <input type="password" name="passwordConfirmation"  placeholder="Confirm password" required>
+        </div>
+        <div>
+            <p>Password and Confirm Password must be the same.</p>
+        </div>
+        <div>
+            <button type="submit" disabled>Signup</button>
+        </div>
+        <div class="loader"></div> <!---LoaderController-->
+        <div>
+            <a class="form-a-asking" href="login.html"> Already registered? Login here</a>
+        </div>
+    </form>
+    <div class="my-message"></div> <!--MessageController-->
+    <script type="module" src="js/signup.js"></script>
+</body>
+<footer>
+    <p>Práctica Keepcoding -2021-</p>
+</footer>
+</html>
