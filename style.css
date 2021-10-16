@@ -63,7 +63,13 @@ body {
 }
 
 /* index.html products */
-.product-container {
+.product-list { /* UL element */
+    /* Remove default list styling */
+    list-style-type: none;
+    margin: 0;
+}
+
+.product-container {  /* div element que tiene li + a*/
     border: 2px solid black;
     border-radius: 10px;
     margin: 10px;

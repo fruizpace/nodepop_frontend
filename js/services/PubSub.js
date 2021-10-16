@@ -6,11 +6,12 @@ const hOP = topics.hasOwnProperty;
 export default {
 
     events: { // creamos la lista de eventos que nos interesa
-        SHOW_SUCCESS: 'SHOW_SUCCESS',
-        SHOW_ERROR: 'SHOW_ERROR',
+        'SHOW_SUCCESS': 'SHOW_SUCCESS',
+        'SHOW_ERROR': 'SHOW_ERROR',
         'SHOW_LOADING': 'SHOW_LOADING',
         'HIDE_LOADING': 'HIDE_LOADING',
-        'SHOW_WARNING': 'SHOW_WARNING'
+        'SHOW_WARNING': 'SHOW_WARNING',
+        'SEARCH': 'SEARCH'
     },
 
     subscribe: function (topic, listener) { // topic= evento al que nos sucribimos

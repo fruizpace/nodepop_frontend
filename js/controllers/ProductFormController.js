@@ -22,7 +22,7 @@ export default class ProductFormController{
                 const tags = data.getAll('tags')
 
                 try {
-                    console.log(name, type, photo, price, tags)
+                    //console.log(name, type, photo, price, tags)
                     // conectar con el servidor y pasarle los datos:
                     const result = await DataServices.createProduct(name, type, photo, price, tags);
                     // mostrar que se ha creado el producto con éxito

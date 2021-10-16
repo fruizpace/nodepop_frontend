@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', function() {
     new LoaderController(loaderDiv)
 
     // 4) controlador de lista de productos:
-    const productListDiv = document.querySelector('.product-list') // coger el elemento del DOM (HTML) donde cargar los productos
-    const productListController = new ProductListController(productListDiv) // instanciar controlador pasándole el elemento DOM
+    const productListUl = document.querySelector('.product-list') // coger el elemento del DOM (HTML) donde cargar los productos
+    const productListController = new ProductListController(productListUl) // instanciar controlador pasándole el elemento DOM
     productListController.renderProducts() // pinta los productos
 })
