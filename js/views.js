@@ -59,11 +59,11 @@ export function headerView(visitorname) {
     return `<nav class="nav">
         <a href="index.html" class="logo nav-link"> Nodepop </a>
         <ul class="nav-menu">
-            <li class="nav-menu-item"> <input type="text" id="mySearch" placeholder="Search in Nodepop..."></li>
-            <li class="nav-menu-item"> <a href="login.html" class="login nav-link" id="login-link"> Login </a> </li>
+            <li class="nav-menu-item"> <a href="login.html" class="login nav-link" id="login-link"> Login or Sign Up</a> </li>
             <li class="nav-menu-item"> <a href="new.html" class="login nav-link" id="new-link"> New Ad </a> </li>
             <li class="nav-menu-item" id="li-visitorname"> <a href="#" class="login nav-link" id="profile-link"> Hello ${visitorname}! </a> </li>
-        </ul>
+            <li class="nav-menu-item"> <a href="#" class="login nav-link" id="faq-link"> FAQ </a> </li>
+            </ul>
     </nav>`
 }
 

@@ -63,6 +63,10 @@ body {
 }
 
 /* index.html products */
+.div-searchbox > input {
+    margin: 5px;
+}
+
 .product-list { /* UL element */
     /* Remove default list styling */
     list-style-type: none;

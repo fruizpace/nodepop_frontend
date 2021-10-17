@@ -40,7 +40,7 @@ export default class ProductListController {
 /*
     addSearchBoxEventListener(box) {
         box.addEventListener('keyup', () => {
-            const search = box.value.toUpperCase()
+            const search = box.value.toUpperCase() // hay que evitar que entre código malicioso!
             console.log(search)
         })
     }
